@@ -1,0 +1,47 @@
+
+body {
+  margin: 0; 
+  display: flex;
+ 
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+*/
+button:hover {
+  border-color: green;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.mainbar{
+  margin-left: 300px; 
+  width: 1750px;
+}
+
+.homelayout{
+  margin-top: 20px;
+}
+
+.login{
+  color: white;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} 
